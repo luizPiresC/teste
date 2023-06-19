@@ -1,0 +1,30 @@
+Integrantes do grupo:
+
+VITOR LIMA RIBEIRO - 202105055
+LUIZ FELIPE PIRES CARVALHO - 202105045
+JOAO GABRIEL TAVARES FELIX MONTEIRO - 202105038
+GUILHERME ABRAÃO DA SILVA - 202107678 
+BRUNA DO ESPIRITO SANTO SOUSA - 202107999 
+
+Tema: 
+
+ - Sistema de Noise-cancelling para ambientes fechados.
+
+
+Focado em empresas localizadas em zonas de alta poluição sonora
+, que busca reduzir a perturbação de ruidos externos em salas de escritórios por meio de interferência simples de ondas sonoras.
+
+Hardware:
+
+.sensores espacializados no ambiente para captação do som invasor
+.alto-falantes de potência moderada para conseguir suprir as ondas
+
+Software:
+
+. Módulo de processamento e inversão de ondas
+. Módulo de analise da interferência do próprio aparelho para identificar possiveis ruidos indesejados na máquina
+
+Equipe de operação:
+
+.equipe de instalação, envolvendo medição do ambiente para devida instalação do aparelho físico
+.equipe de manutenção, capacitada para analisar condição dos aparelhos e prever possiveis falhas e aplicar manutenção ou substituição dos aparatos

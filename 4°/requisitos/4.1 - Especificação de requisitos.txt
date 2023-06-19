@@ -1,0 +1,5 @@
+4.1 - Especificação de requisitos em linguagem natural não-estruturada.
+	O uso da linguagem natural não-estruturada para coleta de requisitos assemelha-se a uma conversa rotineira entre os envolvidos do projeto resumindo uma necessidade ou objetivo a ser alcançado pelo produto. Não dependendo de moldes fixos ou esquemas padrões, ela deve preferencialmente ser abordada como uma maneira leve de se referir as metas e objetivos do grupo.
+
+4.2 - Especificação de requisitos em linguagem natural não-estruturada.
+	Diferentemente da linguagem não-estrutural, esse tipo de espeficicação foca-se em preencher moldes pré-estabelecidos para guiar um levantantamento menos ambiguo e mais direto. Como exemplo de campo mais expressivo pode-se citar a tecnica de histórias de usuario, que consiste no uso do filtro, " objetivando 'objetivo', esperasse que 'agente da ação' realize 'ação esperada'" ou "tendo o evento gatilho 'evento', esperasse que 'agente da ação' faça 'ação'"

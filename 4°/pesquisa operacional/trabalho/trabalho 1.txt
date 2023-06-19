@@ -1,0 +1,43 @@
+A empresa PO's quer adquirir alguns produtos para cumprir com as medidas de prevenção ao novo coronavírus. Ela precisa adquirir pelo menos 2 termômetros e 2 oxímetros, 100 litros de álcool 70% e 125 máscaras. Para isto, o fornecedor da empresa oferece alguns pacotes de compra:
+• Pacote 1 custa 220 reais e contém 1 termômetro, 1 oxímetro e 50 máscaras,
+• Pacote 2 custa 100 reais e contém 1 termômetro, 1 oxímetro e 5 litros de álcool 70%,
+• Pacote 3 custa 60 reais e contém 50 máscaras e 0,5 litro de álcool 70%,
+• Pacote 4 custa 90 reais e contém 25 máscaras e 5 litros de álcool 70%.
+
+Formule o problema obtendo um modelo matemático que possibilite a Empresa PO's a ter o menor gasto possível.
+
+X = pacote 1
+Y = pacote 2
+Z = pacote 3
+W = pacote 4
+
+	     Termomêtro | Oxímetros | álcool | máscaras | valor
+pacote 1 |      1     |     1     |    0   |    50    |  220
+pacote 2 |      1     |     1     |    5   |     0    |  100
+pacote 3 |      0     |     0     |   1/2  |    50    |   60
+pacote 4 |      0     |     0     |    5   |    25    |   90
+
+X, Y, Z, W E |N
+
+MIN 220X + 100Y + 60Z + 90W
+
+.Termômetros
+2 <= 1X + 1Y
+
+.Oxímetros
+2 <= 1X + 1Y
+
+.Litros de álcool
+100 <= 5Y + Z/2 + 5W
+
+.Mascaras
+125 <= 50X + 50Z + 25W
+
+Modelagem
+X, Y, Z, W E |N
+F.O. MIN 220X + 100Y + 60Z + 90W
+2 <= 1X + 1Y n
+100 <= 5Y + Z/2 + 5W
+125 <= 50X + 50Z + 25W
+
+202105045 - Luiz Felipe Pires carvalho

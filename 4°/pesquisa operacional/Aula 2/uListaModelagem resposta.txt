@@ -1,0 +1,82 @@
+ex2) Qual a quantidade de S e T que minimize o custo da dieta
+X = quantidade do alimento S
+Y = quantidade do alimento T
+	| S | T | lim
+Vit. C| 3 | 2 | >=100
+Fibras| 2 | 4 | >= 50
+Carb  | 3 | 3 | <= 42
+  $   | 5 | 3 | Min - busca-se o menor valor que respeite recomendação alimentar
+
+solução:
+. 3x + 2y >= 100 restrições de Vit. C
+. 2x + 4y >= 50  restrições de fibras
+. 3x + 3y <= 42  restrições de carb.
+.  x, y >= 0;      restrições de quantidade do alimento
+
+
+ex8) menor número de motoristas par a empresa funcionar
+
+Xi = # de motoristas que começam as i hrs, com i E ( 2, 5, 8, 11, 14, 17, 20 e 23)
+yi  = minimo de trabalhadores de cada horário, com i E ( 2, 5, 8, 11, 14, 17, 20 e 23)
+
+    | i = 2 | i = 5 | i = 8 | i = 11 | i = 14 | i = 17 | i = 20 | i = 23
+X2  |   X   |   X   |   X   |        |        |        |        |      
+X5  |       |   X   |   X   |   X    |        |        |        |      
+X8  |       |       |   X   |   X    |   X    |        |        |      
+X11 |       |       |       |   X    |   X    |   X    |        |      
+X14 |       |       |       |        |   X    |   X    |   X    |       
+X17 |       |       |       |        |        |   X    |   X    |   X   
+X20 |   X   |       |       |        |        |        |   X    |   X   
+X23 |   X   |   X   |       |        |        |        |        |   X   
+ Yi |   13  |   34  |   28  |   22   |   25   |   34   |   30   |   20
+
+Y2  13 <= X2  + X20 + X23 
+Y5  34 <= X2  + X5  + X23
+Y8  28 <= X2  + X5  + X8
+Y11 22 <= X5  + X8  + X11
+Y14 25 <= X8  + X11 + X14
+Y17 34 <= X11 + X14 + X17
+Y20 30 <= X14 + X17 + X20
+Y23 20<= X17 + X20 + X23
+Xi E |N, com i E ( 2, 5, 8, 11, 14, 17, 20 e 23)
+F.O. MIN x2 + x5 + x8 + x11 + x14 + x17 + x20 + x23 
+F.O. é a função objetiva do problema
+
+ex11) menor custo de operação para ter resultado excelente
+
+F.O. 0<= xi <=7, xE|N; i = 1, 2;
+Xi = # de dias funcionando, i = 1,2
+     | i = 1 | i = 2 | tratado
+sup. |   6   |
+med. |   
+inf. |   
+gasto|  
+
+
+Questão 1- prova de PO-2019-1)
+
+X = quant. receitas de Pão de Queijo
+Y = quant. receitas de Bisc. de Queijo
+Z = quant. receitas de Bisc.de polv. com Queijo
+
+	   | X = 30 | Y = 25 | Z = 40 | total
+Polvilho |   2    |   4    |   2    |  1000
+ovos     |   2    |   3    |   1    |   960
+leite    |  250   |  250   |  250   |  400k
+oleo	   |  125   |  250   |  250   |  350k
+queijo   |  3/5   |   3    |  2/5   |   750
+rend.    |   32   |   25   |   50   |   W
+
+pedido: 
+100 pães   = 10/3 <=x
+100 bisc. qjo = 4 <=y
+200 bisc. p+q = 5 <=z
+
+rendimento total:
+ 32x +  25y +  50z  = MAX(W)
+  2x +   4y +   2z <=   1000
+  2x +   3y +   1z <=    960
+250x + 250y + 250z <=   400k
+125x + 250y + 250z <=   350k
+3/5x +   3y + 2/5z <=    750
+10/3 <=x; 4 <= y; 5 <= z com X,Y e Z E |R.
